@@ -1,6 +1,6 @@
 package com.itb.inf2fm.comercio.model;
 
-public class produto {
+public class Produto {
 
 	
 	private long id;
@@ -16,4 +16,23 @@ public class produto {
 	// Entende-se por membros(atributos e ou métodos)
 	
 	
+	// Metodos Setter's e Getter's : Atribuir e recuperar dados do atributo "RESPECTIVAMENTE"
+	
+	public void setId(long id) {
+		this.id = id;
+	}
+	
+	public long getId() {
+		return id;
+	}
+	public void setNome(){
+		this.nome = nome;	
+	}	
+	public long setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setCodigoBarras
 }
